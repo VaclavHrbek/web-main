@@ -1,0 +1,3 @@
+[submodule "to-do"]
+	path = to-do
+	url = git@github.com:VaclavHrbek/web-to-do.git
