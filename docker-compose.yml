@@ -12,13 +12,13 @@ services:
     # environment:
     #   MONGO_URL: mongodb://mongo:27017/todo
 
-  # mongo:
-  #   image: mongo:latest
-  #   container_name: mongo-web-apps
-  #   ports:
-  #     - "27017:27017"
-  #   volumes:
-  #     - mongo-data:/data/db
+  mongo:
+    image: mongo:latest
+    container_name: mongo-web-apps
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
 
-# volumes:
-#   mongo-data:
+volumes:
+  mongo-data:

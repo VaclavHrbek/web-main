@@ -3,5 +3,16 @@
     "dockerComposeFile": "../../docker-compose.yml",
     "service": "to-do",
     "shutdownAction": "none",
-    "workspaceFolder": "/app"
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mongodb.mongodb-vscode",
+                "bradlc.vscode-tailwindcss",
+                "stivo.tailwind-fold",
+                "Vue.volar",
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
 }
